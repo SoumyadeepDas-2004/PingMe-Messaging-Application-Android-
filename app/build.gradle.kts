@@ -56,4 +56,13 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    //extra
+
+    implementation("androidx.compose.material:material-icons-core")
+    implementation("androidx.compose.material:material-icons-extended")
+    implementation("androidx.navigation:navigation-compose:2.7.2") // Jetpack Compose support for Navigation
+    implementation("com.google.accompanist:accompanist-navigation-animation:0.34.0") // animated transitions between Compose navigation screens.
+    implementation("androidx.compose.animation:animation:1.5.3") // Core Compose animation library
+    implementation("com.google.accompanist:accompanist-systemuicontroller:0.34.0")// Allows you to control system
 }
