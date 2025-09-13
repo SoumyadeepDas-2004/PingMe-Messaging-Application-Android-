@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.soumyadeep.pingme" />
+                  <option name="mobileSdkAppId" value="1:640354549371:android:c0e6830e301b1974b26cde" />
+                  <option name="projectId" value="pingme-ee504" />
+                  <option name="projectNumber" value="640354549371" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

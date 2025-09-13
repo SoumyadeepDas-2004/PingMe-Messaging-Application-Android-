@@ -1,5 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="Theme.MyApplication" parent="android:Theme.Material.Light.NoActionBar" />
+    <!--
+        The <resources> tag is the root container for all resources in this file.
+        "style" is used to define a set of visual attributes for themes or UI components.
+    -->
+
+    <!--
+        Main application theme.
+        This theme is applied as the default theme for your app activities
+        we overwrite it in theme.kt.
+        - name="Theme.PingMe": Name of the custom theme
+        - parent="android:Theme.Material.Light.NoActionBar": Inherits from Material Light theme without an ActionBar (default light mode)
+        - Used as the entry point theme in AndroidManifest.xml
+        -currently its blank because we want to use the theme from Theme.kt
+    -->
+    <style name="Theme.PingMe" parent="android:Theme.Material.Light.NoActionBar">
+    </style>
+
+    <!--
+        System Splash screen theme.
+        This theme is applied specifically to the system splash screen activity.
+        - Sets the system window background color to match the splash screen.
+    -->
+    <style name="Theme.PingMe.Splash" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/background_light</item>
+    </style>
+
 </resources>
